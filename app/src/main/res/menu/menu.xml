@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-  
+<item
+     android:id="@+id/author"
+    android:title="Twórca">
+</item>
+<item
+    android:id="@+id/exit"
+    android:title="Wyjście">
+</item>
+<item
+    android:id="@+id/color"
+    android:title="Kolorystyka">
+    <menu>
+        <item
+            android:id="@+id/black_and_white"
+            android:title="Czarno-biała">
+        </item>
+        <item
+            android:id="@+id/red_and_yellow"
+            android:title="Czerwono-żółta">
+        </item>
+    </menu>
+</item>
 </menu>
